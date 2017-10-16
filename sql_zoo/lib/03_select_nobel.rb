@@ -100,7 +100,7 @@ def nobel_johns
   # Show the winners with first name John
   execute(<<-SQL)
   SELECT
-    DISTINCT winner
+     winner
   FROM
     nobels
   WHERE
